@@ -1,9 +1,5 @@
 gunicorn
 flask
 google-cloud-speech==1.3.2
-nltk.tokenize
-nltk.corpus
-nltk.stem
 nltk
-os
 pyaudio
