@@ -1,6 +1,6 @@
 gunicorn
 flask
 google-cloud-speech==1.3.2
-speech_recognition
+SpeechRecognition
 nltk
 
