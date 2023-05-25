@@ -3,11 +3,8 @@ import speech_recognition as sr
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-import nltk
 import os
 import nltk
-import pyaudio
-
 app = Flask(__name__)
 
 
