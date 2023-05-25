@@ -1,0 +1,9 @@
+gunicorn
+flask
+speech_recognition
+nltk.tokenize
+nltk.corpus
+nltk.stem
+nltk
+os
+pyaudio
