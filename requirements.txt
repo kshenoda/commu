@@ -1,6 +1,6 @@
 gunicorn
 flask
-speech_recognition
+google-cloud-speech==1.3.2
 nltk.tokenize
 nltk.corpus
 nltk.stem
