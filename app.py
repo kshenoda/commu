@@ -5,6 +5,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import os
 import nltk
+import pyaudio
 app = Flask(__name__)
 
 
