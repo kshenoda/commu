@@ -1,5 +1,5 @@
 gunicorn
 flask
-SpeechRecognition==3.9.0
+SpeechRecognition==3.10.0
 nltk
 
