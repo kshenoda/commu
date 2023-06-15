@@ -1,3 +1,4 @@
+
 from flask import Flask, request, jsonify
 import speech_recognition as sr
 from nltk.tokenize import word_tokenize
@@ -10,14 +11,17 @@ app = Flask(__name__)
 
 @app.route('/', methods=['Get','POST'])
 def audio_to_sign_language():
-    r = sr.Recognizer()
+     r = sr.Recognizer()
 
-    with sr.Microphone() as source:
-        r.adjust_for_ambient_noise(source)
-        print("Say something!")
-        audio = r.listen(source)
+     with sr.Microphone() as source:
+         r.adjust_for_ambient_noise(source)
+         print("Say something!")
+         audio = r.listen(source)
     try:
-        text = r.recognize_google(audio)
+         text =r.recognize_google(audio)
+        text = "Hello World"
+
+
         print(text)
     except sr.UnknownValueError:
         return jsonify({'error': 'speech not recognized'}), 400
